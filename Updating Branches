@@ -1,0 +1,7 @@
+So master branch will always have the best and brightest code. But how do we get it like that, especially after creating many branches? Easy as cake.
+1) First save, and commit your changes with a meaningful commit message.
+2) Then, push your changes to origin branch.
+3) Next, create pull requests to merge your changes into upper level branches, up to master.
+4) Finally, to update the current branch (if it is # behind master), pull master code into that branch, make a change, save and commit the change. Finally, push the change to your local branch (and origin branch) and see your branch become 1 commit ahead of master. 
+
+You can verify master is up to date by checking the last commit message. It should match the meaningful commit message you entered back in step 1.
